@@ -1,10 +1,10 @@
 # --- Core ML / RL Dependencies ---
-torch
-torchvision
-numpy
-pandas
-scikit-learn
-matplotlib
+# torch
+# torchvision
+# numpy
+# pandas
+# scikit-learn
+# matplotlib
 gymnasium
 stable-baselines3
 
