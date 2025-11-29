@@ -1,0 +1,14 @@
+# Python virtual environment
+.venv/
+
+# Bytecode
+__pycache__/
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+
+# OS files
+Thumbs.db

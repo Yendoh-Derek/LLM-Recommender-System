@@ -1,0 +1,28 @@
+# --- Core ML / RL Dependencies ---
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+matplotlib
+gymnasium
+stable-baselines3
+
+# --- Embedding Models ---
+sentence-transformers
+
+# --- API / Server ---
+fastapi
+uvicorn
+pydantic
+
+# --- Experiment Tracking ---
+mlflow
+
+# --- Utility / Environment ---
+python-dotenv
+
+# --- Dev Tools ---
+black
+ruff
+pytest
