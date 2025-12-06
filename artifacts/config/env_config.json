@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "created_at": "2025-12-05T20:01:52.195207",
+    "n_models": 95,
+    "embedding_dim": 384,
+    "feature_cols": [
+      "cost_score",
+      "popularity_score",
+      "recency_score",
+      "diversity_score",
+      "performance_score"
+    ]
+  },
+  "hyperparameters": {
+    "top_k": 5,
+    "max_steps_per_episode": 10,
+    "action_space_dim": 95,
+    "observation_space_dim": 6
+  },
+  "reward_weights": {
+    "performance": 0.4,
+    "cost": 0.2,
+    "diversity": 0.2,
+    "popularity": 0.1,
+    "recency": 0.1
+  },
+  "spaces": {
+    "action_space": {
+      "type": "Box",
+      "shape": [
+        95
+      ],
+      "low": 0.0,
+      "high": 1.0
+    },
+    "observation_space": {
+      "type": "Box",
+      "shape": [
+        6
+      ],
+      "low": -Infinity,
+      "high": Infinity
+    }
+  }
+}

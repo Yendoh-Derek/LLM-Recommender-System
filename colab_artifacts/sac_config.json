@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "created_at": "2025-12-06T00:57:39.815721",
+    "total_episodes": 500,
+    "total_steps": 5000,
+    "best_eval_return": 5.794774314137896
+  },
+  "hyperparameters": {
+    "lr": 0.0003,
+    "gamma": 0.99,
+    "tau": 0.005,
+    "alpha": 0.2,
+    "auto_entropy": true,
+    "hidden_dim": 256,
+    "buffer_size": 100000,
+    "batch_size": 256
+  },
+  "architecture": {
+    "state_dim": 6,
+    "action_dim": 95,
+    "actor_params": 116414,
+    "critic_params": 184322,
+    "total_params": 300736
+  },
+  "performance": {
+    "random_baseline": 4.79,
+    "trained_mean": 5.733021964498417,
+    "trained_std": 0.18107124555213655,
+    "improvement_pct": 19.68730614819242
+  }
+}
