@@ -229,7 +229,11 @@ class RecencyScorer:
     def calculate_recency_score(
         created_at: Optional[str],
         reference_date: Optional[datetime] = None
+<<<<<<< HEAD
     ) -> Optional[float]:
+=======
+    ) -> float:
+>>>>>>> b3c814c3103eedd0c0a4ec872af19d7cb5dfb69d
         """
         Calculate recency score (days since creation).
         Does NOT cap at 5 years - returns actual age.
@@ -239,10 +243,17 @@ class RecencyScorer:
             reference_date: Reference date (defaults to now)
             
         Returns:
+<<<<<<< HEAD
             Days since creation (actual value, no capping) or None if unavailable
         """
         if not created_at or pd.isna(created_at):
             return None
+=======
+            Days since creation (actual value, no capping)
+        """
+        if not created_at or pd.isna(created_at):
+            return None  # Return None instead of default
+>>>>>>> b3c814c3103eedd0c0a4ec872af19d7cb5dfb69d
         
         if reference_date is None:
             reference_date = pd.Timestamp.utcnow()

@@ -1,0 +1,4 @@
+# This file ensures the artifacts directory is tracked by git
+# Actual artifacts (models, embeddings, preprocessing configs) will be added here
+# after training in Colab
+

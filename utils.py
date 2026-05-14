@@ -9,7 +9,11 @@ from pathlib import Path
 class PathManager:
     """Centralized path management for the project."""
     
+<<<<<<< HEAD
     def __init__(self, base_dir: str | Path):
+=======
+    def __init__(self, base_dir: str):
+>>>>>>> b3c814c3103eedd0c0a4ec872af19d7cb5dfb69d
         self.BASE_DIR = Path(base_dir)
         
         # Data directories
@@ -79,9 +83,14 @@ def validate_dataframe(df, required_columns: list, name: str = "DataFrame"):
         results['valid'] = False
         results['missing_columns'] = list(missing)
     
+<<<<<<< HEAD
     # Count nulls for each column, only for columns that exist
     existing_columns = [col for col in required_columns if col in df.columns]
     results['null_counts'] = df[existing_columns].isnull().sum().to_dict()
+=======
+    # Count nulls for each column
+    results['null_counts'] = df[required_columns].isnull().sum().to_dict()
+>>>>>>> b3c814c3103eedd0c0a4ec872af19d7cb5dfb69d
     
     print(f"\n{'='*60}")
     print(f"Validation Report: {name}")

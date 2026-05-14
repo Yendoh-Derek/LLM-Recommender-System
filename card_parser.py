@@ -425,7 +425,11 @@ class ModelCardParser:
     def parse_full_card(
         cls, 
         model_id: str, 
+<<<<<<< HEAD
         card_text: Optional[str],
+=======
+        card_text: str,
+>>>>>>> b3c814c3103eedd0c0a4ec872af19d7cb5dfb69d
         tags: Optional[List[str]] = None
     ) -> ModelCard:
         """

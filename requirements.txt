@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 torch>=1.13.0
 torchvision>=0.14.0
 numpy>=1.24.0
@@ -23,3 +24,43 @@ ruff>=0.0.280
 mypy>=1.10.0
 seaborn>=0.12.0
 faiss-cpu>=1.7.0
+=======
+# FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# HTTP client for testing
+httpx==0.25.2
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Numerical computing
+numpy==1.26.2
+pandas==2.1.4
+pyarrow==14.0.1
+
+# ML/RL
+torch==2.1.2
+
+# Vector Search
+faiss-cpu==1.7.4
+
+# Logging (built-in, but keeping for reference)
+# Standard library: logging
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# Type checking (optional but recommended)
+mypy==1.7.1
+
+# Code quality (optional)
+black==23.11.0
+ruff==0.1.6
+
+>>>>>>> b3c814c3103eedd0c0a4ec872af19d7cb5dfb69d
