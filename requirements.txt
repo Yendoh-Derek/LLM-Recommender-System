@@ -1,28 +1,25 @@
-# --- Core ML / RL Dependencies ---
-# torch
-# torchvision
-# numpy
-# pandas
-# scikit-learn
-# matplotlib
-gymnasium
-stable-baselines3
-
-# --- Embedding Models ---
-sentence-transformers
-
-# --- API / Server ---
-fastapi
-uvicorn
-pydantic
-
-# --- Experiment Tracking ---
-mlflow
-
-# --- Utility / Environment ---
-python-dotenv
-
-# --- Dev Tools ---
-black
-ruff
-pytest
+torch>=1.13.0
+torchvision>=0.14.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+gymnasium>=0.29.0
+stable-baselines3>=2.0.0
+sentence-transformers>=2.2.2
+fastapi>=0.101.0
+uvicorn>=0.23.0
+pydantic>=2.9.0
+mlflow>=2.4.0
+python-dotenv>=1.0.0
+huggingface-hub>=0.17.0
+tqdm>=4.65.0
+requests>=2.31.0
+datasets>=2.16.0
+pyyaml>=6.0
+pytest>=8.0.0
+black>=24.0.0
+ruff>=0.0.280
+mypy>=1.10.0
+seaborn>=0.12.0
+faiss-cpu>=1.7.0
