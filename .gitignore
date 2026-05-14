@@ -1,25 +1,17 @@
-<<<<<<< HEAD
 # Python virtual environment
 .venv/
+venv/
+env/
+ENV/
 
 # Bytecode
-__pycache__/
-
-# VS Code settings
-.vscode/
-
-# Environment files
-.env
-
-# OS files
-Thumbs.db
-=======
-# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+
+# Build artifacts
 build/
 develop-eggs/
 dist/
@@ -36,18 +28,30 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
-venv/
-env/
-ENV/
-.venv
-
-# IDE
+# IDE settings
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+
+# Environment files
+.env
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Cache and logs
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.log
+
+# Testing
+htmlcov/
+.coverage
+.tox/
 .DS_Store
 
 # Environment variables
